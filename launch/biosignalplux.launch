@@ -1,0 +1,15 @@
+<launch> 
+
+   <!-- parameters-->
+      <arg name="channels" default="8" doc="Channels to be measured" />
+      <arg name="frequency" default="500" doc="Sample frequency, must be 500 or 1000" />
+      <arg name="mac_address" default="BTH00:AB:CD:EF:GH:IJ" doc="MAC address of the device" />
+
+
+   <!-- start node -->
+   <node name="biosignalplux" type="biosignalplux_node" pkg="biosignalplux" output="screen">
+         <param name="~/channels" type="int" value="$(arg channels)"/>
+         <param name="~/mac_address" type="string" value="$(arg mac_address)"/>
+	 <param name="~/frequency" type="int" value="$(arg frequency)" />
+      </node>
+</launch>
