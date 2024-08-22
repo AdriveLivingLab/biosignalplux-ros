@@ -3,7 +3,7 @@
 <p>
  <div align="center">
  <a href="https://www.hs-kempten.de/ifm" target="_blank">
-      <img width="90%" src="doc/biosignalplux-ros.png"></a>
+      <img width="90%" src="doc/biosignalplu.png"></a>
   </p>
   <div>
     <img src="https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=22314E" alt="OS: Linux">
